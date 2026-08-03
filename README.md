@@ -2,7 +2,11 @@
 
 > Google AI Studio로 만든 AI 얼굴 복사 웹앱 — 텍스트 프롬프트로 얼굴 이미지를 생성하고 편집한다.
 
-Google Gemini (`@google/genai`) 기반 React + Vite SPA. AI Studio에서 export한 프로젝트를 로컬에서 실행하고 확장할 수 있다.
+![AI](https://img.shields.io/badge/Google-Gemini%20Gen%20AI-blue) ![Stack](https://img.shields.io/badge/React%2019-Vite-purple)
+
+<!-- 스크린샷: <img src="screenshot.png" width="400"> -->
+
+Google Gemini (`@google/genai`) 기반 React + Vite SPA. AI Studio에서 export한 프로젝트를 로컬에서 실행하고 확장할 수 있다. Facebook UI에서 영감을 받았다.
 
 ## 기술 스택
 
@@ -27,7 +31,3 @@ src/
 ├── main.tsx      엔트리포인트
 └── index.css     Tailwind 스타일
 ```
-
-## 비고
-
-Google AI Studio에서 생성된 프로토타입 프로젝트. Facebook UI에서 영감을 받았다.
